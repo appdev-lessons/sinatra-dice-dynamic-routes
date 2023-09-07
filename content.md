@@ -71,7 +71,7 @@ Let's get started, and make our app match the target!
 
 In your live app preview, try visiting the path `/dynamic/50/6`. You should get the familiar "Sinatra doesn't know this ditty" 404 page, since we haven't set up a route for that path yet.
 
-Now, let's make it work; but since it's so many dice (50 of them!), it would be tedious to create individual variables for each one. Instead, let's use [an `Array` and a loop in the view template, like we learned here](https://learn.firstdraft.com/lessons/105#looping-in-view-templates):
+Now, let's make it work; but since it's so many dice (50 of them!), it would be tedious to create individual variables for each one. Instead, let's use [an `Array` and a loop in the view template, like we learned here](https://learn.firstdraft.com/lessons/105-sinatra-view-templates#looping-in-view-templates):
 
 ```ruby
 # /app.rb
