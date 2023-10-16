@@ -2,9 +2,15 @@
 
 In this project, we're going to improve the code for our dice rolling web app even more. We're going to add support for _all possible combinations_ of number of dice and type of dice — in other words, our app will be able to respond to an _infinite_ variety of HTTP requests! We'll pull this off by learning about **dynamic path segments**.
 
----
+<div class="bg-blue-100 py-1 px-5" markdown="1">
 
-[Here is a video for this lesson](https://share.descript.com/view/qO2C2MH8le0). You should not rely entirely on the video. PLEASE READ the below lesson as you are going through the steps, since there is much more detail in the text than in the video. **Note:** In the lesson below there is now a target app and `rake grade` specs, which were not in the video.
+[Here is a video for this lesson](https://share.descript.com/view/qO2C2MH8le0). You should not rely entirely on the video. Read the below lesson as you are going through the steps, since there is much more detail in the text than in the video. As you watch the video, pause it frequently to experiment and write the code being demonstrated.
+</div>
+
+<div class="bg-red-100 py-1 px-5" markdown="1">
+
+In the lesson there is now a target app and `rake grade` specs, which were not in the video.
+</div>
 
 ## Create a codespace
 
@@ -438,3 +444,5 @@ Can you refactor your Sinatra Rock, Paper, Scissors codebase to use only one act
 - No
 	- Oh no! Dynamic path segments and `params` are absolutely crucial concepts. Please re-read it when you have more time.
 {: .choose_best #did_you_read title="Did you read it?" points="2" answer="1" }
+
+---
