@@ -7,6 +7,8 @@ In this project, we're going to improve the code for our dice rolling web app ev
 [Here is a video for this lesson](https://share.descript.com/view/qO2C2MH8le0). You should not rely entirely on the video. Read the below lesson as you are going through the steps, since there is much more detail in the text than in the video. As you watch the video, pause it frequently to experiment and write the code being demonstrated.
 </div>
 
+---
+
 <div class="bg-red-100 py-1 px-5" markdown="1">
 
 In the lesson there is now a target app and `rake grade` specs, which were not in the video.
